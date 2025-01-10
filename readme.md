@@ -5,8 +5,8 @@ Realizamos una práctica que permite usando GRID en CSS para crear diseños web.
 
 ## Contenido de la publicación
 - **index.html**: Archivo principal con la estructura HTML del proyecto.
-- **styles.css**: Archivo de estilos que implementa GRID.
-- **media/**: Carpeta con recursos de imágenes (si aplica).
+- **styles.css**: Archivo de estilos que implementa el CSS añadiendo GRID.
+- **media/**: Carpeta con recursos de imágenes.
 
 ## Desarrollo del proyecto
 Este proyecto utiliza CSS GRID para organizar los elementos de la página en una estructura de rejilla, incluyendo áreas definidas y diseño adaptativo.
