@@ -24,7 +24,7 @@ La página está desplegada y se puede visualizar en el siguiente enlace:
 - **Versión**: 1.0
 
 ## Autor
-- [Adrián Ginel Mañas](https://github.com/adriuno) ***(adriuno)***
+- [Adrián Ginel Mañas](https://github.com/adriuno) *** (adriuno) ***
 
 ## Licencia
 Sin licencia
