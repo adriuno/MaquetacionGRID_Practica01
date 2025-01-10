@@ -1,0 +1,151 @@
+
+
+
+
+/*Aspecto especifico*/
+/* Establecemos el centrado y las dimensiones de los elementos principales con una ancho máximo y mínimo*/
+
+
+/* Elemento (section vintage) con las 3 cards */
+
+/* Sección con la nevera y los tres párrafos descriptivos (section)*/
+
+
+
+
+
+/*Caracteristicas generales:  fuente Font google, tamaño de fuente responsive*/
+  /* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+  /* RESETEO LIMITADO DE PROPIEDADES*/
+
+  *, *::before *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+  background: linear-gradient(90deg, #ff7eb3, #feb47b); 
+  padding: 10px; /* Espaciado interno */
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+
+/* Estilos para el menú principal (nav)*/
+/* Sección para la galería de imágenes (section)*/
+.tres img{
+  width: 30%; 
+  height: auto; 
+  display: inline-block;
+
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+nav ul {
+  background-color: darkcyan;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li{
+  display: inline-block;    /* Al usar inline-block se pone luego en el padre(arriba) text-aling: center */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul a{
+  padding: 30px;
+  text-decoration: none; 
+  color: rgb(222, 218, 138);
+}
+nav ul a:hover{
+  background-color: rgb(8, 90, 90);
+}
+
+.vint {
+  text-align: center;
+
+}
+.vintage {
+  display: inline-block;
+}
+
+.descripcion img {
+  float: left;
+}
+
+
+
+/* Sección principal */
+
+h2 {
+  font-size: 40px;
+}
+
+.aaff {
+  text-align: center;
+
+}
+.vin {
+  display: inline-block;
+}
+section hr {
+  margin-top: 30px; /* Espacio arriba de la línea */
+  margin-bottom: 30px; /* Espacio debajo de la línea */
+}
+
+
+aside {
+  position: fixed;
+  top: 40%;
+  left: 75%;
+  background-color: rgb(57, 242, 242, 0.8); /* el 0.8 es para la opacidad!!!!*/
+  height:100px;
+  width:200px;
+  border-radius: 8px; 
+  padding: 10px; /* Espaciado interno */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+  text-align: center;
+}
+
+/* Call for action para Comprar , la palabra "compra" en un link sin subrayado*/
+aside button {
+  background-color: rgb(238, 16, 16); 
+  color: white; 
+  padding: 8px 12px; 
+  border-radius: 4px; 
+  font-size: 0.9rem; 
+
+  display: block;
+  margin: 0 auto ;
+}
+
+aside a {
+  text-decoration: none; 
+}
+
+/* Estilos para el pie de página (footer)*/
+footer {
+  display:inline-block;
+  position: fixed;
+  color: rgb(222, 222, 97);
+  background-color: #22838e; 
+  z-index: 1;
+  width: 100%;
+  bottom:  0%;
+}
